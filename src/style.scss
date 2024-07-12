@@ -1,0 +1,90 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+.card {
+  margin: 0 auto;
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background-color: rgb(192, 42, 42);
+  border-radius: 15px;
+}
+
+.card-type {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 40px;
+}
+
+input {
+  padding: 0 10px;
+  border-radius: 7px;
+  min-height: 30px;
+  border: none;
+}
+
+.card-number {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 180px;
+}
+
+.card-date {
+  position: absolute;
+  top: 110px;
+  left: 35px;
+  max-width: 55px;
+}
+
+.card-cvv {
+  position: absolute;
+  top: 110px;
+  left: 185px;
+  max-width: 80px;
+}
+
+.card-email {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 180px;
+}
+
+.card-number:focus-visible,
+.card-date:focus-visible,
+.card-cvv:focus-visible,
+.card-email:focus-visible {
+  outline: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.button {
+  position: absolute;
+  top: 250px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 20px 15px;
+  border-radius: 7px;
+  background-color: rgb(140, 140, 223);
+  font-size: 1.2em;
+}
+
+h1 {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+}

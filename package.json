@@ -1,0 +1,39 @@
+{
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.8.0",
+    "@types/jest": "^29.5.12",
+    "babel-jest": "^27.5.1",
+    "babel-loader": "^8.3.0",
+    "css-loader": "^6.11.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jest": "^24.7.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "html-webpack-plugin": "^5.6.0",
+    "jest": "^27.0.6",
+    "mini-css-extract-plugin": "^2.9.0",
+    "prettier": "^2.0.5",
+    "sass": "^1.75.0",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.4",
+    "webpack": "^5.47.1",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.15.2"
+  },
+  "scripts": {
+    "build": "webpack --mode=production --env prod",
+    "dev": "webpack serve --mode=development",
+    "lint": "eslint ./",
+    "test": "jest"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "card-validator": "^9.1.0",
+    "credit-card-type": "^10.0.0",
+    "email-validator": "^2.0.4",
+    "imask": "^7.6.0",
+    "navigo": "^8.11.1",
+    "redom": "^4.0.0"
+  }
+}
